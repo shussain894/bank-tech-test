@@ -26,6 +26,6 @@ class Statement {
     if (typeof num == "number") return num.toFixed(2)
     return num
   }
-}
+};
 
-export default Statement;
+module.exports = Statement;

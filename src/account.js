@@ -1,4 +1,4 @@
-import Statement from './statement';
+const Statement = require('./statement')
 
 class Account {
   constructor(statement = new Statement()) {
@@ -51,6 +51,6 @@ class Account {
     const dateString = `${dd}/${mm}/${yyyy}`
     return dateString
   }
-}
+};
 
-export default Account;
+module.exports = Account;
