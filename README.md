@@ -45,15 +45,18 @@ First ensure you have completed the steps in **How to install this software?**
 
 #### Setting up node
 Firstly:
+
 `` cd src ``
 
 Then open the node REPL by running the node command:
   
   ``node``
 
-require the following file to load the software into the REPL
+require the following files to load the software into the REPL
 
   ``const Account = require('./account.js')``
+  
+  ``const Statement = require('./statement.js')``
 
 #### Creating an account
 You can create your own bank account by creating an instance of the **BankAccount** class
