@@ -63,7 +63,7 @@ You can create your own bank account by creating an instance of the **BankAccoun
 #### displayBalance()
 The ``displayBalance()`` method returns the total current balance of your account
   ```
-  myBank.displayBalance()
+  myBank.balance()
   // expected output: 0
   ```
 
@@ -90,7 +90,7 @@ The ``withdraw()`` method is used to remove money from your account
   **note**
   you cannot withdraw an amount greater that the total balance of your account
   ```
-  myBank.displayBalance()
+  myBank.balance()
   // expected output: 200
 
   myBank.withdraw(500)
@@ -100,7 +100,7 @@ The ``withdraw()`` method is used to remove money from your account
 #### printStatement()
 The ``printStatement()`` method is used to print a summary of all transactions on the bank account
   ```
-  myBank.displayBalance()
+  myBank.balance()
   // expected output: 0
 
   myBank.deposit(1000)
